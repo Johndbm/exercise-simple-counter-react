@@ -15,10 +15,10 @@ const Home = ({counter, one, two, three, four}) => {
 							<path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zm7-8A7 7 0 1 1 1 8a7 7 0 0 1 14 0z"/>
 						</svg>
 					</div>
+					<div className="col">{Math.floor(four % 10)}</div>
+					<div className="col">{Math.floor(three % 10)}</div>
+					<div className="col">{Math.floor(two % 10)}</div>
 					<div className="col">{one % 10}</div>
-					<div className="col">{Math.floor(two % 100)}</div>
-					<div className="col">{Math.floor(three % 1000)}</div>
-					<div className="col">{Math.floor(four % 10000)}</div>
 				</div>
 			</div>
 		</>
