@@ -21,6 +21,17 @@ const Home = ({counter, one, two, three, four}) => {
 					<div className="col">{one % 10}</div>
 				</div>
 			</div>
+			{/* BONUS
+			<div className="container text-center">
+				<div className="row row-cols-3 justify-content-center my-2">
+					<button type="button" className="btn btn-dark">Countdown</button>
+				</div>
+				<div className="row row-cols-3 justify-content-center">
+					<button type="button" className="btn btn-dark">Stop</button>
+					<button type="button" className="btn btn-dark">Reset</button>
+					<button type="button" className="btn btn-dark">Resume</button>
+				</div>
+			</div> */}
 		</>
 	);
 };
